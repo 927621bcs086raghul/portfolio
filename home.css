@@ -558,3 +558,91 @@ button{
     padding-top: 28px;
     font-size: 14px;
 }
+@media (max-width: 768px) {
+  .home, .testimonial, .GetinTouch, .made {
+    width: 100%;
+  }
+
+  .top {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .text, .icon {
+    flex-direction: column;
+    gap: 10px;
+    padding-left: 10px;
+  }
+
+  .main {
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+  }
+
+  .main img {
+    width: 250px;
+    height: 250px;
+    margin-top: 20px;
+  }
+
+  .content {
+    width: 90%;
+    margin: 0;
+    padding-top: 20px;
+    text-align: center;
+  }
+
+  .content p {
+    width: 100%;
+  }
+
+  #button {
+    width: 90%;
+    padding: 15px;
+  }
+
+  .logo, .casestudy, .recent, .work {
+    width: 100%;
+    padding: 0 10px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .cs1, .cs2, .cs3 {
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+  }
+
+  .img, .img1 {
+    width: 100%;
+    height: auto;
+    margin: 0;
+  }
+
+  .order1 {
+    flex-direction: column;
+    width: 100%;
+    margin-left: 0;
+    padding: 0 10px;
+  }
+
+  .d1 {
+    width: 100%;
+    margin-left: 0;
+    margin-bottom: 20px;
+  }
+
+  .recent p, .testimonial p, .GetinTouch p {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  input, button, label {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
