@@ -9,6 +9,7 @@ body{
     margin: auto;
     height: 700px;
     margin-bottom: 80px;
+    position: relative;
 }
 .top{
     width: 1110px;
@@ -120,7 +121,7 @@ padding-left: 180px;
 gap: 30px;
 }
 .casestudy{
-
+    position: relative;
     height: 1242px;
     width: 897px;
     margin: auto;
