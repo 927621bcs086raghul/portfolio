@@ -626,3 +626,34 @@ button{
         margin: 0 auto;
     }
 }
+@media (max-width: 768px) {
+    .casestudy, .recent {
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 10px;
+        text-align: center;
+    }
+
+    .cs1, .cs2, .cs3 {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    .csd, .img, .img1 {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .recent .work {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .workhere {
+        width: 100%;
+        margin: 10px 0;
+    }
+}
