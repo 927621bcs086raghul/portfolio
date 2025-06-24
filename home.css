@@ -9,7 +9,7 @@ body{
     margin: auto;
     height: 700px;
     margin-bottom: 80px;
-    position: relative;
+    margin-left: 300px;
 }
 .top{
     width: 1110px;
@@ -121,10 +121,10 @@ padding-left: 180px;
 gap: 30px;
 }
 .casestudy{
-    position: relative;
     height: 1242px;
     width: 897px;
     margin: auto;
+    margin-left: 300px;
 }
 .casestudy h1{
     font-family: Raleway;
@@ -474,6 +474,7 @@ left: 85px;
     display: flex;
     flex-direction: column  ;
     margin-top: 79px;
+    margin-left: 300px;
 }
 .GetinTouch h1{
     font-family: Raleway;
