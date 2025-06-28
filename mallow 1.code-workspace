@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../mallow 1"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "figmap"
+	}
+}
