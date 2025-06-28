@@ -1,27 +1,488 @@
 body{
-    margin: 0;
-    margin: auto;
+    margin: 0%;
 }
 .home{
     background-color: #000000;
     width: 1280px;
     margin: auto;
-    height: 700px;
     margin-bottom: 80px;
+    padding-bottom: 20px;
 }
+@media(min-width:600px) and (max-width:1280px){
+    body .top{
+        display: none;
+    }
+    .home{
+        width: auto; 
+    }
+    .home .main{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .top  .icon{
+        flex-direction: column;
+        padding: 0px;
+        gap:10px;
+        height: auto;
+        padding-left: 0px;
+    }
+    .main .content{
+        width: auto;
+        margin: 0px;
+        padding-top: 0px;
+    }
+    .content h1{
+        width: auto;
+        display: flex;
+        justify-content: center;
+    }
+    .main .content p{
+        width: auto;
+        text-align: justify;
+        padding: 10px;
+        margin: auto;
+    }
+    .main #button{
+        margin: auto;
+        padding-left: 0;
+        display: flex;
+        justify-content: center;
+
+    }
+    .home #workedwith{
+        padding-left: 0%;
+        display: flex;
+        justify-content: center;
+    }
+    .home .main img{
+        width: 150px;
+        height: 150px;
+        margin: auto;
+    }
+     .home .logo{
+        width:auto;
+        padding-left: 0%;
+        flex-direction: column;
+        height: auto;
+        display: flex;
+        justify-content: center;
+    }
+    .logo img{
+        width: 30%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        margin: auto;
+    }
+    body .casestudy{
+        width:auto;
+        display: flex;
+        flex-direction: column;
+    }
+    body .casestudy p{
+        width: 70%;
+    }
+    .recent .work{
+        margin-left: 70px;
+        margin-top: 0;
+    }
+    .recent .work,.recent .work .workhere{
+        width: auto;
+        height: auto;
+    }
+    .work .workhere p{
+        width: auto;
+
+    }
+    .work .workhere h2{
+        width: fit-content;
+    }
+    body .recent img{
+        width: 50%;
+    }
+     body .testimonial{
+        width: auto;
+        height: auto;
+        gap: 15px;
+    }
+     body .testimonial h1{
+        margin: 0%;
+        width: auto;
+        display: flex;
+        justify-content: center;
+
+    }
+    body .testimonial p{
+        margin: 0;
+        width: auto;
+        height: auto;
+        padding-left: 10px;
+    }
+    .testimonial .order1{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        width: auto;
+        height: auto;
+        margin: auto;
+        margin-bottom: 15px;
+    }
+    .order1 .d1{
+        padding-bottom: 10px;
+        width: 80%;
+        margin: auto;
+        gap:150px
+
+    }
+    body .recent{
+        display: flex;
+        flex-direction: column;
+        width: auto;
+    }
+    .recent .work #call{
+width: 0;
+    }
+    .recent h1{
+        width: auto;
+        height: fit-content;
+        display: flex;
+        justify-content: center;
+    }
+    body .GetinTouch{
+        display: flex;
+        margin: 0%;
+        width: auto;
+    }
+    body .GetinTouch p{
+        width: auto;
+        margin: auto;
+    }
+    .GetinTouch label{
+        margin: auto;
+        margin-left: 20%;
+    }
+    .GetinTouch input{
+        margin: auto;
+        margin-left: 20%;
+    }
+    .GetinTouch button{
+        margin: auto;
+        margin-left:20% ;
+    }
+    body .made{
+        display: flex;
+        width: auto;
+        justify-content: center;
+    }
+    .casestudy .cs1 img,.casestudy .cs2 img,.casestudy .cs3 img{
+        width: 70%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        margin: auto;
+    }
+        .casestudy .cs1 .csd h6, .casestudy .cs2 .csd h6, .casestudy .cs3 .csd h6 {
+        margin: auto;
+        margin-bottom: 30px;
+    }
+    .casestudy .cs1 .csd h5, .casestudy .cs2 .csd h5, .casestudy .cs3 .csd h5 {
+        margin: auto;
+    }
+     .casestudy .cs1 .csd,.casestudy .cs2 .csd,.casestudy .cs3 .csd{
+        width: 100%;
+    }
+    .casestudy .cs1 .csd h6,.casestudy .cs2 .csd h6,.casestudy .cs3 .csd h6{
+        margin: auto;
+         margin-bottom: 30px;
+    }
+    .casestudy .cs1 .csd h5 ,.casestudy .cs2 .csd h5 ,.casestudy .cs3 .csd h5 {
+        margin: auto;
+    }
+    .casestudy .cs1 .csd h2,.casestudy .cs2 .csd h2,.casestudy .cs3 .csd h2{
+        display: flex;
+        justify-content: center;
+    }
+}
+@media (max-width:600px){
+    body{
+        height:auto;
+    }
+    .home{
+        width: auto;
+        height: fit-content;
+    }
+    .home .main{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+   .home .main .top{
+        padding-left: 0px;left:0px;
+        transform:none;display: none;
+        flex-direction: column;
+        left: 0px;
+        width:fit-content;
+    }
+    .home .main .top .text{
+        display: flex;
+        flex-direction: column;
+        padding: 0%;
+        gap:10px;
+        height: auto;
+    }
+    .home .main .top .text a{
+        width: 20px;
+    }
+    .top  .icon{
+        flex-direction: column;
+        padding: 0px;
+        gap:10px;
+        height: auto;
+        padding-left: 0px;
+    }
+    .main .content{
+        width: auto;
+        margin: 0px;
+        padding-top: 0px;
+    }
+    .content h1{
+        width: auto;
+        display: flex;
+        justify-content: center;
+    }
+    .main .content p{
+        width: auto;
+        text-align: justify;
+        padding: 10px;
+    }
+    .main #button{
+        margin: auto;
+        padding-left: 0;
+        display: flex;
+        justify-content: center;
+
+    }
+    .home #workedwith{
+        padding-left: 0%;
+        display: flex;
+        justify-content: center;
+    }
+    .home .main img{
+        width: 150px;
+        height: 150px;
+        margin: auto;
+    }
+     .home .logo{
+        width:auto;
+        padding-left: 0%;
+        flex-direction: column;
+        height: auto;
+        display: flex;
+        justify-content: center;
+    }
+    .logo img{
+        width: 30%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        margin: auto;
+    }
+    body .casestudy{
+        width:auto;
+        display: flex;
+        flex-direction: column;
+    }
+    body .casestudy p{
+        width: auto;
+        margin: auto ;
+        padding: 10%;
+    }
+     body .casestudy h1{
+        width:100%;
+        display: flex;
+        justify-content: center;
+    }
+    .casestudy .cs1,.casestudy .cs3,.casestudy .cs2{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        width: auto;
+        margin-bottom: 10px;
+        padding:10%;
+    }
+    .casestudy .cs1 .img1{
+        width: auto;
+        height: auto;
+        margin: auto;
+    }
+    .casestudy .cs2 .img1{
+        width: 100%;
+        height: auto;
+
+    }
+    .casestudy .cs1 .csd,.casestudy .cs2 .csd,.casestudy .cs3 .csd{
+        width: 100%;
+    }
+    .casestudy .cs1 .csd h6,.casestudy .cs2 .csd h6,.casestudy .cs3 .csd h6{
+        margin: auto;
+         margin-bottom: 30px;
+    }
+    .casestudy .cs1 .csd h5 ,.casestudy .cs2 .csd h5 ,.casestudy .cs3 .csd h5 {
+        margin: auto;
+    }
+    .casestudy .cs1 .csd h2,.casestudy .cs2 .csd h2,.casestudy .cs3 .csd h2{
+        display: flex;
+        justify-content: center;
+    }
+    .casestudy .cs2{
+        height: auto;
+    }
+    .casestudy .cs1 .img,.casestudy .cs3 .img,.casestudy .cs2 .img{
+        margin: 0;
+    }
+    .casestudy .cs1 img,.casestudy .cs3 img,.casestudy .cs2 img{
+        width: 60%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        margin: auto;
+    }
+    .cs2  {
+        margin: auto;
+        width: auto;
+        height: auto;
+    }
+     body .testimonial{
+        width: auto;
+        height: auto;
+    }
+     body .testimonial h1{
+        margin: 0%;
+        width: auto;
+        display: flex;
+        justify-content: center;
+
+    }
+    body .testimonial p{
+        margin: 0;
+        width: auto;
+        height: auto;
+    }
+    .testimonial .order1{
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        height: auto;
+        margin: auto;
+        padding: 20px;
+        padding-bottom: 0;
+        padding-top: 0;
+    }
+    .order1 .d1{
+        padding-bottom: 10px;
+        width: auto;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    body .recent{
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        height: auto;
+    }
+    body .recent h1{
+        width: auto;
+    }
+    body .recent p{
+        width: auto;
+        height: auto;
+        padding: 10%;
+    }
+    body .recent .work {
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content:flex-start;
+        height: auto;
+    }
+    .recent .work #call{
+        overflow: hidden;
+        padding: 0px;
+        width: 0;
+
+    }
+    .work .workhere{
+        width: auto;
+        height: auto;
+        margin-top: 20px;
+        display: flex  ;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .work .workhere p{
+        padding: 0;
+        padding-left: 20px;
+    }
+    .workhere img{
+        width: 60%;
+        margin: auto;
+    }
+.workhere h2{
+    display: flex;
+    justify-content: center ;
+}
+    .workhere h6{
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    /* .get in touch*/
+    body .GetinTouch{
+        display: flex;
+        margin: 0%;
+        width: auto;
+        height: auto;
+    }
+    body .GetinTouch p{
+        width: auto;
+        margin: 10px;
+        height: auto;
+    }
+    .GetinTouch label{
+        margin: auto;
+        margin-left: 10%;
+    }
+    .GetinTouch input{
+        margin: auto;
+        margin-left: 10%;
+        width: 80%;
+        height: 100%;
+        margin-bottom: 5%;
+    }
+    .GetinTouch button{
+        margin: auto;
+        margin-left:10% ;
+        width: 85%;
+        margin-bottom: 10px;
+    }
+    body .made{
+        display: flex;
+        width: auto;
+        justify-content: center;
+    }
+    
+}
+
 .top{
     width: 1110px;
     height: 70px;
-    left: 85px;
     border-bottom-right-radius: 8px;
     border-bottom-left-radius: 8px;
     top: 0;
     background-color: #1B1B1B;
     margin: auto;
-    margin-top:0px;
     padding: 10px;
     display: flex;
-    box-sizing: border-box; 
     position: fixed;    
     left: 50%;            
     transform: translateX(-50%);
@@ -30,26 +491,17 @@ body{
 .top a{
     font-family: IBM Plex Mono;
     flex-direction: row;
-    font-weight: 400;
     font-size: 14px;
-    line-height: 100%;
-    letter-spacing: 1pxx;
-    vertical-align: bottom;
     color: #9C9C9C;
-    margin: 0;
     text-decoration: none;
 }
 .text{
     display: flex;
     gap: 70px;
-    width: 717px;
-    height: 18px;
     padding-top: 24px;
     padding-left: 95px;
 }
 .icon{
-    width: 18px;
-height: 17px;
 padding-top: 24px;
 padding-left: 95px;
 color: #9C9C9C;
@@ -58,22 +510,21 @@ display: flex;
 }
 .main{
     display: flex;
+    flex-wrap: wrap;
+    flex-basis: auto;
     margin: auto; 
     padding-top: 70px;
 }
 .content{
     padding-top: 131px;
     margin-left: 180px;
-    width: 538px;
+    padding-right: 10px;
 }
 .main .content h1{
     font-family: Raleway;
-font-weight: 800;
-font-size: 44px;
-line-height: 100%;
-letter-spacing: 0%;
-vertical-align: bottom;
-color: #FFFFFF;
+    font-weight: 800;
+    font-size: 44px;
+    color: #FFFFFF;
 }
 .content p{
     color:#9C9C9C;
@@ -81,7 +532,6 @@ color: #FFFFFF;
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
-    letter-spacing: 1%;
     width: 492px;
 }
 #button{
@@ -89,7 +539,6 @@ color: #FFFFFF;
     color: #FFFFFF;
     font-size: 16px;
     font-weight: 700;
-    line-height: 100%;
     padding-bottom: 21px;
     padding-top: 21px;
     width: 307.89px;
@@ -97,8 +546,8 @@ color: #FFFFFF;
     padding-left: 64px;
     border-radius: 4px;
     font-family: IBM Plex Mono;
-    border:1px solid #62BA1B;
-    letter-spacing: 2px;
+        border:1px solid #62BA1B;
+        letter-spacing: 2px;
 }
 .main img{
     width: 350px;
@@ -120,39 +569,34 @@ padding-left: 180px;
 gap: 30px;
 }
 .casestudy{
-
-    height: 1242px;
-    width: 897px;
+    width: 80%;
     margin: auto;
 }
 .casestudy h1{
     font-family: Raleway;
     margin: 0;
-    font-weight: 800;
     text-align: center;
 }
 .casestudy p{
     color: #9C9C9C;
-    width: 570px;
+    width: 40%;
     height: 72px; 
-    text-align: center;
-    padding-left: 147px;
-    margin-top: 10px;
-    margin-bottom: 0;
     font-size: 14px;
     line-height: 24px;
-    letter-spacing: 1%;
+     margin: 10px auto 10px auto;
 }
 .cs1,.cs3{
-    width: 892px;
-    height: 300px;
-    margin-left: 208px;
     display: flex;
+    justify-content: center;
     margin-top: 60px;
+    margin: auto;
+        justify-content: center;
+    flex-basis: content;
+    flex-wrap: wrap;
 }
 .csd{
-    width: 421px;
-    height: 300px;
+    width: 40%;
+    height: auto ;
 }
 .csd h5{
     font-family: IBM Plex Mono;
@@ -181,7 +625,7 @@ margin-top: 20px;
 margin-bottom: 10px;
 }
 .csd c{
-    width: 421px;
+    width: 20%;
     height: 96px;
     color: #9C9C9C;
     font-family: IBM Plex Mono;
@@ -199,7 +643,8 @@ margin-bottom: 10px;
     padding-right: 24px;
     padding-bottom: 10px;
     padding-left: 24px;
-    margin-top: 40px;
+    margin-top: 20px;
+    margin-bottom: 10px;
     font-family: IBM Plex Mono;
     font-weight: 700;
     font-size: 14px;
@@ -216,12 +661,14 @@ margin-bottom: 10px;
     margin-left: 26px;
  }
  .cs2{
-    width: 892px;
-    height: 300px;
-    margin-left: 208px;
+
     display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    flex-basis: content;
+    flex-wrap: wrap;
     margin-top: 60px;
-    flex-direction: row-reverse ;
+    margin: auto;
     
 }
 
@@ -256,7 +703,8 @@ margin-bottom: 10px;
     padding-right: 24px;
     padding-bottom: 10px;
     padding-left: 24px;
-    margin-top: 40px;
+    margin-top: 20px;
+    margin-bottom: 10px;
     font-family: IBM Plex Mono;
     font-weight: 700;
     font-size: 14px;
@@ -292,7 +740,8 @@ margin-bottom: 10px;
     padding-right: 24px;
     padding-bottom: 10px;
     padding-left: 24px;
-    margin-top: 40px;
+    margin-top: 20px;
+    margin-bottom: 10px;
     font-family: IBM Plex Mono;
     font-weight: 700;
     font-size: 14px;
@@ -307,7 +756,6 @@ margin-bottom: 10px;
     width: 1280px;
     height: 804px;
     background-color: #080808;
-    position: relative;
     margin: auto;
     margin-top: 30px;
 }
@@ -401,9 +849,9 @@ margin-bottom: 10px;
     margin-top: 20px;
 }
 .recent{
-    width: 1109.8927001953125;
+    width: 1109.8927001953125px;
 height: 676px;
-left: 85px;
+margin:auto;
 }
 .recent h1{
     font-family: Raleway;
@@ -411,7 +859,8 @@ left: 85px;
     font-size: 34px;
     line-height: 100%;
     letter-spacing: 0%;
-    text-align: center;
+    display: flex;
+    justify-content: center;
 }
 .recent p{
     font-family: IBM Plex Mono;
@@ -557,92 +1006,4 @@ button{
     margin: 0;
     padding-top: 28px;
     font-size: 14px;
-}
-@media (max-width: 768px) {
-  .home, .testimonial, .GetinTouch, .made {
-    width: 100%;
-  }
-
-  .top {
-    width: 100%;
-    padding: 10px;
-  }
-
-  .text, .icon {
-    flex-direction: column;
-    gap: 10px;
-    padding-left: 10px;
-  }
-
-  .main {
-    flex-direction: column;
-    align-items: center;
-    padding-top: 100px;
-  }
-
-  .main img {
-    width: 250px;
-    height: 250px;
-    margin-top: 20px;
-  }
-
-  .content {
-    width: 90%;
-    margin: 0;
-    padding-top: 20px;
-    text-align: center;
-  }
-
-  .content p {
-    width: 100%;
-  }
-
-  #button {
-    width: 90%;
-    padding: 15px;
-  }
-
-  .logo, .casestudy, .recent, .work {
-    width: 100%;
-    padding: 0 10px;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .cs1, .cs2, .cs3 {
-    flex-direction: column;
-    width: 100%;
-    height: auto;
-  }
-
-  .img, .img1 {
-    width: 100%;
-    height: auto;
-    margin: 0;
-  }
-
-  .order1 {
-    flex-direction: column;
-    width: 100%;
-    margin-left: 0;
-    padding: 0 10px;
-  }
-
-  .d1 {
-    width: 100%;
-    margin-left: 0;
-    margin-bottom: 20px;
-  }
-
-  .recent p, .testimonial p, .GetinTouch p {
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  input, button, label {
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-  }
 }
