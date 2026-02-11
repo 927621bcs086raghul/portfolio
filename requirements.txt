@@ -1,0 +1,10 @@
+# Robot AI Brain - Python Dependencies
+# Flask: REST API backend server for receiving sensor data and sending decisions
+# Streamlit: WebUI for chatbot and sensor dashboard
+# requests: HTTP client for making API calls
+# flask-cors: CORS support for cross-origin requests (Streamlit to Flask)
+
+Flask==2.3.3
+flask-cors==4.0.0
+requests==2.31.0
+Streamlit==1.28.0
